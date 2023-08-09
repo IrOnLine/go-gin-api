@@ -30,14 +30,7 @@ https://medium.com/nuances-of-programming/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%
         $ go get gorm.io/gorm 
         $ go get gorm.io/driver/postgres 
 
-Переменные среды
-        pkg/common/envs/.env
-
-Конфигурация
-        pkg/common/config/config.go
-
-Модели/сущности
-        pkg/common/models/book.go
-
-Инициализация базы данных (GORM):
-        pkg/common/db/db.go
+Переменные среды: pkg/common/envs/.env
+Конфигурация: pkg/common/config/config.go
+Модели/сущности: pkg/common/models/book.go
+Инициализация базы данных (GORM): pkg/common/db/db.go
