@@ -3,8 +3,9 @@ package books
 import (
 	"net/http"
 
+	"pkg/common/models"
+
 	"github.com/gin-gonic/gin"
-	"github.com/ironline/go-gin-api/pkg/common/models"
 )
 
 func (h handler) GetBook(c *gin.Context) {

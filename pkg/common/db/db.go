@@ -3,9 +3,10 @@ package db
 import (
 	"log"
 
-	"github.com/ironline/go-gin-api/pkg/common/models" // import models
-	"gorm.io/driver/mysql"                             // MySQL driver
-	"gorm.io/gorm"                                     // GORM library
+	"pkg/common/models" // import models
+
+	"gorm.io/driver/mysql" // MySQL driver
+	"gorm.io/gorm"         // GORM library
 )
 
 func Init(url string) *gorm.DB { // function to initialize database
