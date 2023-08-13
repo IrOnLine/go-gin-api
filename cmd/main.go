@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ironline/go-gin-api/pkg/books"
-	"github.com/ironline/go-gin-api/pkg/common/db"
+	"go-gin-api/pkg/books"
+	"go-gin-api/pkg/common/db"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/viper"

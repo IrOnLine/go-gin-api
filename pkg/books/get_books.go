@@ -3,7 +3,7 @@ package books
 import (
 	"net/http"
 
-	"github.com/ironline/go-gin-api/pkg/common/models"
+	"go-gin-api/pkg/common/models"
 
 	"github.com/gin-gonic/gin"
 )
