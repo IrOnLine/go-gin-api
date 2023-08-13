@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"pkg/common/models" // import models
+	"github.com/ironline/go-gin-api/pkg/common/models" // import models
 
 	"gorm.io/driver/mysql" // MySQL driver
 	"gorm.io/gorm"         // GORM library
