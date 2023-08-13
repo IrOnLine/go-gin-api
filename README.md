@@ -28,9 +28,11 @@ https://medium.com/nuances-of-programming/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%
         $ go get github.com/spf13/viper 
         $ go get github.com/gin-gonic/gin 
         $ go get gorm.io/gorm 
-        $ go get gorm.io/driver/postgres 
+        $ go get gorm.io/driver/mysql 
 
 Переменные среды: pkg/common/envs/.env
 Конфигурация: pkg/common/config/config.go
 Модели/сущности: pkg/common/models/book.go
 Инициализация базы данных (GORM): pkg/common/db/db.go
+
+go run cmd/main.go
